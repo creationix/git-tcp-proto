@@ -1,0 +1,29 @@
+{
+  "name": "git-tcp-proto",
+  "version": "0.0.1",
+  "description": "A js-git interface adapter that implements proto using tcp.",
+  "main": "tcp-proto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "git-proto": "~0.0.1",
+    "git-pkt-line": "~0.1.0",
+    "push-to-pull": "~0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creationix/git-tcp-proto.git"
+  },
+  "keywords": [
+    "js-git",
+    "tcp",
+    "proto",
+    "adapter"
+  ],
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creationix/git-tcp-proto/issues"
+  }
+}
